@@ -1,0 +1,10 @@
+pipeline{
+	agent any
+	stages{
+		stage('saludo'){
+			steps{
+				sh 'echo hola mundo soy jeni'
+			}
+		}
+	}
+}
